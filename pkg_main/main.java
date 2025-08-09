@@ -25,7 +25,7 @@ public class main {
 				System.out.println("Enter 1 if Student\nEnter 2 if Librarian\nEnter 3 if want to exit:");
 				choice = sc.nextInt();
 				
-				if(choice==1)   // if user is student
+				if(choice==1)  
 				{
 						System.out.println("Enter your Rollno");
 						int rollno = sc.nextInt();
@@ -334,7 +334,7 @@ public class main {
 						    	           
 						    	           
 						    	           
-						    	case 23: // Add a Book
+						    	case 23: 
 						    		
 								    	    System.out.println("Please Enter Book Details to Add");
 		
@@ -349,7 +349,7 @@ public class main {
 								    	    System.out.println("ISBN");
 								    	    isbn = sc.nextInt();
 		
-								    	    sc.nextLine(); // Consume the newline
+								    	    sc.nextLine(); 
 		
 								    	    System.out.println("Author");
 								    	    author = sc.nextLine();

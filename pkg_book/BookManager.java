@@ -52,7 +52,7 @@ public class BookManager
 	{
 		for(book book :book_list)
 		{
-			if(book.getSubject().equals(subject)) {         // value or content compare karta hai
+			if(book.getSubject().equals(subject)) {        
 				System.out.println(book);
 			}
 		}
@@ -97,7 +97,7 @@ public class BookManager
 		
 		while(book_iterator.hasNext()) {
 			
-			book book= book_iterator.next();           // current object return karega aur pointer next par chala gya
+			book book= book_iterator.next();          
 			
 			if(book.getIsbn()==update_isbn) 
 			{
@@ -122,7 +122,7 @@ public class BookManager
 		
 		while(book_iterator.hasNext()) {
 			
-			book book= book_iterator.next();           // current object return karega aur pointer next par chala gya
+			book book= book_iterator.next();       
 			
 			if(book.getIsbn()==delete_isbn) {
 				
